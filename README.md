@@ -1,8 +1,12 @@
 # LocalGramm Desktop Messenger
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 LocalGramm is a desktop messenger prototype built with a React/Vite frontend, a Tauri shell, and a FastAPI backend. It focuses on the mechanics of a private chat product: accounts, chats, messages, reactions, uploads, group management, and local desktop packaging.
 
 The repository is a source-only public version. Runtime data, uploaded media, local SQLite databases, Python virtual environments, and Tauri/Rust build output are intentionally excluded.
+
+Portfolio: [lu3x.duckdns.org](https://lu3x.duckdns.org/)
 
 ## What is included
 
@@ -73,3 +77,7 @@ npm run tauri dev
 - Uploaded files are written to `backend/uploads` by default and are ignored by Git.
 - The public version does not include the previous local SQLite database or uploaded chat media.
 - Sticker/media dumps are excluded to keep the repository source-focused and avoid publishing runtime assets.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
