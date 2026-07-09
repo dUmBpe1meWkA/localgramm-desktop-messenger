@@ -1,0 +1,11 @@
+* text=auto
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.icns binary
+*.webp binary
+*.webm binary
+*.mp3 binary
+*.mp4 binary
